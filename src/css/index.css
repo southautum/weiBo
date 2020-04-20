@@ -1,0 +1,122 @@
+.head {
+	border-top: 2px solid #fa7d3c;
+	height: 48px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	background-color: #fff;
+	font-size: 0;
+
+}
+.bk-img {
+	display: inline-block;
+	width: 190px;
+	height: 48px;
+}
+.bk-img img {
+	height: 48px;
+	width: 190px;
+}
+.search {
+	width: 445px;
+	height: 18px;
+	margin-top: 9px;
+	padding: 4px 13px 4px 10px ;
+	border: 1px solid #ccc;
+	background-color: #f2f2f5;
+	font-size: 0;
+}
+.search input {
+	width: 425px;
+	height: 20px;
+	line-height: 20px;
+	outline: none;
+	background-color: #f2f2f5;
+	color: #808080;
+	border: none;
+}
+.search a {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-image: url(../img/search-icon.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	vertical-align: top;
+}
+.search a:hover {
+	background-image: url(../img/search-hover.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.head-ul {
+	width: 428px;
+	height: 26px;
+	padding: 11px 0 11px 94px;
+}
+.head-ul ul {
+	width: 430px;
+	height: 26px;
+}
+.head-ul ul li {
+	margin-left: 26px;
+	width: 54px;
+	height: 26px;
+	display: inline-block;
+	font-size: 0;
+}
+.head-ul-a {
+	display: inline-block;
+	width: 28px;
+	height: 26px;
+	padding-left: 26px;
+	color: #333;
+	font-size: 14px;
+	line-height: 26px;
+}
+.head-ul-al {
+	display: inline-block;
+	width: 45px;
+	height: 26px;
+	padding-left: 26px;
+	color: #333;
+	font-size: 14px;
+	line-height: 26px;
+}
+.head-ul-abks {
+	background-image: url(../img/video-icon.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.head-ul-abkf {
+	background-image: url(../img/find-icon.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.head-ul-abkt {
+	background-image: url(../img/game-icon.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.head-ul-abkfo {
+	background-image: url(../img/person-icon.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.head-ul-a:hover {
+	color: #eb7350;
+}
+.head-ul-af {
+	display: inline-block;
+	width: 28px;
+	height: 26px;
+	padding-left: 26px;
+	color: #fa7d3c;
+	font-size: 14px;
+	line-height: 26px;
+	background-image: url(../img/index-icon.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
