@@ -11,12 +11,12 @@
 }
 .bk-img {
 	display: inline-block;
-	width: 190px;
+	width: 176px;
 	height: 48px;
 }
 .bk-img img {
 	height: 48px;
-	width: 190px;
+	width: 176px;
 }
 .search {
 	width: 445px;
@@ -119,4 +119,32 @@
 	background-repeat: no-repeat;
 	background-position: left top;
 }
+.head-logo {
+	height: 24px;
+	width: 130px;
+	margin: 12px 0px 12px 20px;
+	border-left: 1px solid #d9d9d9;
+	font-size: 0;
+}
+.head-logo a {
+	display: inline-block;
+	width: 20px;
+	height: 24px;
+	margin-left: 21px;
+}
 
+.head-logo-af {
+	background-image: url(../img/mail-icon.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.head-logo-as {
+	background-image: url(../img/setting-icon.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.head-logo-at {
+	background-image: url(../img/write-icon.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
