@@ -320,3 +320,44 @@
 	background-position: left center;
 	background-repeat: no-repeat;
 }
+.middle-text {
+	width: 600px;
+	height: 165px;
+	background-color: #fff;
+	border-radius: 2px;
+}
+.text-f {
+	width: 580px;
+	height: 140px;
+	padding: 15px 10px 10px 10px;
+}
+.text-h {
+	height: 21px;
+	width: 100%;
+}
+.text-hp {
+	width: 200px;
+	color: #1b7fb6;
+	font-size: 18px;
+	font-family: "WBswficon";
+
+}
+.text-a {
+	height: 21px;
+	padding-top: 6px;
+	font-size: 0;
+}
+.text-h-al {
+	display: inline-block;
+	height: 15px;
+	font-size: 12px;
+	color: #eb7350;
+	margin-right: 12px;
+}
+.text-h-ar {
+	vertical-align: top;
+	display: inline-block;
+	height: 15px;
+	font-size: 12px;
+	color: #eb7350;
+}
