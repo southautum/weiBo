@@ -151,17 +151,17 @@
 .all {
 	background-color: #b4daf0;
 	width: 100%;
-	height: 100%;
+	height: 10000px;
 }
 .comment {
 	width: 1000px;
+	height: 10000px;
 	padding-top: 16px;
 	margin: 50px auto 0;
 	background-color: rgba(70,149,194,0.3);
 }
 .comment-left {
 	width: 150px;
-	background-color: rgba(70,149,194,0.3);
 }
 .comment-middle {
 	width: 600px;
@@ -184,7 +184,7 @@
 }
 .list-f li a {
 	display: inline-block;
-	width: 100%;
+	width: 135px;
 	height:34px;
 	line-height: 34px;
 	font-size: 14px;
@@ -265,11 +265,58 @@
 }
 .special-icon {
 	background-image: url(../img/special-icon.jpg);
-	background-position: 15px center;
+	background-position: 13px center;
 	background-repeat: no-repeat;
 }
 .own-icon {
 	background-image: url(../img/own-icon.jpg);
-	background-position: 15px center;
+	background-position: 10px center;
+	background-repeat: no-repeat;
+}
+.position {
+	position: relative;
+}
+.dot-icon {
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+	height: 4px;
+	width: 4px;
+	border-radius: 4px;
+	position: absolute;
+	top: 13px;
+	left: 19px; 
+}
+.another-dot {
+	border: 1px solid #fa7d3c;
+	background-color: #fa7d3c;
+	height: 2px;
+	width: 2px;
+	border-radius: 2px;
+	position: absolute;
+	top: 12px;
+	right: 8px; 
+}
+.new-dot {
+	border: 1px solid #fa7d3c;
+	background-color: #fa7d3c;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 13px;
+	height: 13px;
+	width: 18px;
+	border-radius: 2px;
+	position: absolute;
+	top: 10px;
+	right: 10px; 
+}
+.settingS-icon {
+	height: 22px;
+	width: 14px;
+	top: 69px;
+	right: 10px;
+	position: absolute;
+	background-image: url(../img/settingS-icon.jpg);
+	background-position: left center;
 	background-repeat: no-repeat;
 }
