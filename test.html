@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="./src/css/common.css">
+	<link rel="stylesheet" href="./src/css/normallize.css">
+	<link rel="stylesheet" href="./src/css/index.css">
+	<!-- <script type="text/javascript" src="./src/js/segementfault.js"></script>
+ -->
+</head>
+<body>
+	<div class="content-middle-text" id="text-div">
+		<div class="fl text-left" id="text">
+			<h2 id="last-h2">厉害了！每30秒学会一个Python小技巧，Github星数4600+</h2>
+			<p id="last-p">很多学习Python的朋友在项目实战中会遇到不少功能实现上的问题，有些问题并不是很难的问题，或者已经有了很好的方法来解决。当然，孰能生巧，当我们代码熟练了，自然就能总结一些好用的技巧</p>
+		</div>
+		<div class="fr text-right">
+			<img src="./src/img/text-img.jpg">
+		</div>
+		<div class="text-bottom fl">
+			<a class="text-bottom-a" href="*">x25</a>
+			<span class="dot">·</span>
+			<a class="text-bottom-as" href="*">赞</a>
+			<a class="text-bottom-at" href="*">Python数据科学</a>
+			<span class="dot">·</span>
+			<p>4月11日</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var fatherDiv = document.getElementById("text-div");
+ 		var lastDiv = document.getElementById("text");
+ 		var div = document.createElement("div");
+ 		fatherDiv.insertBefore(div, lastDiv);
+		div.className = lastDiv.className;
+		var lastH2 = document.getElementById("last-h2");
+		var h2 = document.createElement("h2");
+		h2.className = lastH2.className;
+		h2.id = lastH2.id;
+		var lastP = document.getElementById("last-p");
+		var p = document.createElement("P");
+		p.className = lastP.className;
+		p.id = lastP.id;
+		div.insertBefore(h2, null);
+		div.insertBefore(p, null);
+		var newsList = new Object()
+			newsList.title = '厉害了！每30秒学会一个Python小技巧，Github星数4600+';
+			newsList.content = '很多学习Python的朋友在项目实战中会遇到不少功能实现上的问题，有些问题并不是很难的问题，或者已经有了很好的方法来解决。当然，孰能生巧，当我们代码熟练了，自然就能总结一些好用的技巧';
+		
+		h2.innerHTML = newsList.title;
+		p.innerHTML = newsList.content;
+		
+ 		console.log(h2 == div.firstChild);
+ 	</script>
+</body>
+</html>
